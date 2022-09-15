@@ -7,14 +7,6 @@ var level = 0;
 var started = false;
 
 
-$(document).keydown(function(){
-    if(!started){
-    $("#level-title").text("Level " + level);
-    nextSequence();
-    started = true;
-   
-}
-});
 $(document).click(function(){
     if(!started){
     $("#level-title").text("Level " + level);
